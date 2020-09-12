@@ -48,3 +48,17 @@ table {
 }
 
 
+
+/* flex boxes */
+
+.container .boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#strategy {
+    display: flex;
+    align-items: center;
+}
