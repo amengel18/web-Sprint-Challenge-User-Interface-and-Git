@@ -155,11 +155,12 @@ head {
 head nav a {
     color: black;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row-reverse;
+    justify-content: space-around;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-    margin: 20px;
+    margin: 80px;
 }
 
 .middle-content .boxes .box:first-child{
