@@ -154,13 +154,10 @@ head {
 
 head nav a {
     color: black;
+    border: 60px;
+    margin: 60px;
     padding: 40px 2%;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    align-items: flex-start;
-  
-}
+  }
 
 .middle-content .boxes .box:first-child{
     background-color: teal;
