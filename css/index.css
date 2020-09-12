@@ -147,20 +147,19 @@ footer nav a {
 
 head {
     width: 100%;
-    display: flex;
-    padding: 20px 5%;
+    padding: 40px 5%;
+    margin-bottom: auto;
 }
    
 
 head nav a {
     color: black;
+    padding: 40px 2%;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-    margin: 80px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
 }
 
 .middle-content .boxes .box:first-child{
