@@ -153,11 +153,19 @@ head {
    
 
 head nav a {
-    color: black;
-    border: 60px;
+    text-decoration: none;
+    border: 150px;
     margin: 60px;
-    padding: 40px 2%;
+    padding: 80px 5%;
+    display: inline-flex;
+    align-content: center;
   }
+
+img#header {
+    border: 80px;
+    vertical-align: middle; 
+}
+
 
 .middle-content .boxes .box:first-child{
     background-color: teal;
@@ -198,3 +206,4 @@ head nav a {
 .middle-content .boxes .box:nth-child(10){
     background-color: dodgerblue;
 }
+
