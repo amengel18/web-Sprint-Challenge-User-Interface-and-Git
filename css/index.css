@@ -145,26 +145,37 @@ footer nav a {
     text-decoration: none;
 }
 
-head {
+.head {
     width: 100%;
-    padding: 40px 5%;
+    padding: 20px 5%;
     margin-bottom: auto;
 }
    
 
-head nav a {
-   width: 60%;
+.head nav a {
+    color: black;
     display: flex;
-   flex-direction: row-reverse;
    justify-content: space-evenly;
-   align-items: center;
+   align-items: flex-end;
    padding: 20px 2%;
    font-size: 16 px;
   }
 
-img#header {
+.head nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 2%;
+    font-size: 16 px;
+}  
+
+img #header {
     border: 80px;
-    vertical-align: middle; 
+}
+
+img #road {
+    width: 100%;
+
 }
 
 
