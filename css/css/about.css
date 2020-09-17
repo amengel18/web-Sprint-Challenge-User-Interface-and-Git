@@ -64,10 +64,7 @@ div.About {
     border-bottom: 1px dashed black;
 } 
 
-.boxes {
+div.boxes {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	align-content: space-between;
-
 }
+
